@@ -1,0 +1,190 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  background-color: #a29f9f;
+}
+
+/* NAVBAR */
+.navbar {
+  font-size: 15px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.navbar nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+
+  padding: 0 60px;
+  line-height: 60px;
+}
+
+.navbar nav a:hover {
+  color: gray;
+  border-bottom: 1px solid black;
+}
+
+/* SEARCH */
+.navbar .search{
+  width: 900px;
+  padding: 12px 20px 12px 40px;
+
+  border: 2px solid #ccc;
+  border-radius: 4px;
+
+  background-repeat: no-repeat;
+
+  transition: width 0.4s ease-in-out;
+}
+
+.navbar .search:focus{
+  width: 1000px;
+}
+
+/* BANNER IN HOME*/
+.banner{
+ background-color: black;
+ color: white;
+ height: 200px;
+ width: 100%;
+ margin-top: 50px;
+}
+
+.banner h1{
+  font-size: 35px;
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(180deg,#ffb6ff,#b344ff);
+}
+
+.banner p{
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+
+/* CAROUSEL */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.tile-wrapper{
+  background-image: url(../images/why_apple.jpg);
+  background-repeat: no-repeat;
+  height: 560px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tile-wrapper h3{
+  max-width: 50%;
+  margin: 80px auto 30px auto;
+  font-size: 45px;
+}
+
+.tile-wrapper p{
+  max-width: 40%;
+  font-size: 30px;
+  line-height: 1.3;
+
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.flex-wrapper{
+  background-color: #e5e2e2;
+  display: flex;
+  margin:30px auto;
+  padding-bottom: 30px;
+}
+
+
+.flex-wrapper div{
+  box-sizing: border-box;
+  max-width: 400px;
+  margin-right: 200px;
+}
+
+.flex-wrapper div:first-child{
+  margin-left: 200px;
+}
+.flex-wrapper div figure{
+  /* background-image: url(../components/Home/images/icon_delivery.png); */
+  height: 75px;
+  width: 51px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+/* FOOTER */
+footer{
+  width: 100%;
+
+  background-color: black;
+  color: white;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+
+  padding: 0 60px;
+  line-height: 60px;
+}
+
+.col {
+  padding: 15px 0;
+}
+
+
+/* FORMULAR */
+.form-container{
+  width: 100%;
+  margin: 10rem;
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid black;
+}
+.inputForm {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* SHOP, WARENKORB */
+.shop{
+  
+  margin: 5rem auto;
+
+  width: 1400px;
+
+  
+}
+
+ul{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-row-gap: 40px;
+  grid-column-gap: 34px;
+}
+
+li{
+  list-style-type: none;
+}
