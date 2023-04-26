@@ -33,7 +33,8 @@ export default function Navbar() {
       <nav>
         <Link to="/">Home</Link>
         <Link to="/shop">Shop</Link>
-        {<Link to="/über uns">Über Uns</Link>}
+        <Link to="/über uns">Über Uns</Link>
+        <Link to="/admin">Admin</Link>
 
         <input
           className="search"
